@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOPΞ — Community Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="tope.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo"><span>></span>TOPΞ</div>
+    <div class="hamburger" onclick="openMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-btn" onclick="closeMenu()">✕</button>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#experience" onclick="closeMenu()">Experience</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-tags fade-up">COMMUNITY MANAGER · SCALING WEB3 COMMUNITIES · SOCIAL MEDIA EXPERT</div>
+    <h1 class="hero-title fade-up">
+      <span class="white">A<br>Web3 Community<br></span><span class="green">strategist.</span>
+    </h1>
+    <p class="hero-desc fade-up">
+      Media expert with over  <strong>2 years in the crypto Space</strong> — I build and nurture communities that drive real growth in the crypto space.
+    </p>
+    <div class="btn-row fade-up">
+      <a href="#projects" class="btn-primary">View my work</a>
+      <a href="#contact" class="btn-secondary">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div id="stats">
+    <div class="stat reveal">
+      <div class="stat-num">2+</div>
+      <div class="stat-label">Years building</div>
+    </div>
+    <div class="stat reveal">
+      <div class="stat-num">4+</div>
+      <div class="stat-label">communities managed</div>
+    </div>
+    <div class="stat reveal" style="margin-top: 24px;">
+      <div class="stat-num" style="font-size: clamp(2rem, 8vw, 3.5rem);">Web3</div>
+      <div class="stat-label">Community focused</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label">ABOUT</p>
+    <h2 class="section-title reveal"><span class="section-title-text">Community<br>first.<br></span>Ready to<br>level up<br>your community.</h2>
+
+    <div class="avatar-wrap reveal">
+      <!-- Anime avatar placeholder -->
+      <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:4rem;"><img src="Tope.jpg" alt=""></div>
+    </div>
+
+    <p class="about-body reveal">
+      I'm a <strong>Community Manager and Social Media Expert </strong> with over 2 years in the crypto space. 
+      I started as a Discord contributor, fueled by a passion to learn, scale, and contribute more. 
+      Every step has been a lesson, evolving from regional community management to full moderation roles. 
+      I focus on authentic engagement, strategic marketing, and events that turn users into loyal advocates. 
+      Whether hosting AMAs, organizing IRL meetups, or analyzing growth metrics, 
+      I solve real community challenges to help Web3 projects thrive.
+    </p>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label">SKILLS</p>
+    <h2 class="section-title reveal">Core<br>skills</h2>
+
+    <div class="skill-card reveal">
+      <p class="skill-card-title">COMMUNITY MANAGEMENT</p>
+      <div class="tags-wrap">
+        <span class="tag">Discord moderation</span>
+        <span class="tag">Team coordination</span>
+        <span class="tag">User onboarding</span>
+        <span class="tag">Event hosting</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <p class="skill-card-title">Marketing & Content</p>
+      <div class="tags-wrap">
+        <span class="tag">Twitter/X marketing</span>
+        <span class="tag">content creation</span>
+        <span class="tag">skilled writing for posts and campaigns.</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <p class="skill-card-title">Analytics & Strategy</p>
+      <div class="tags-wrap">
+        <span class="tag">Social media analytics</span>
+        <span class="tag">Growth tracking</span>
+        <span class="tag">Engagement optimization</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <p class="skill-card-title">Web3 & Gaming</p>
+      <div class="tags-wrap">
+        <span class="tag">Crypto ecosystem knowledge</span>
+        <span class="tag">Web3 community building</span>
+        <span class="tag">gaming community insights</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">PROJECTS</p>
+    <h2 class="section-title reveal">Things<br>I've Done.</h2>
+
+    <!-- Project 1: irl event -->
+    <div class="project-card reveal">
+      <div class="project-img irlevent">
+        <img width="100%" height="100%" src="irlevent.jpg" alt="a real live event hosted">
+      </div>
+      <div class="project-inner">
+        <h3 class="project-title">IRL Event</h3>
+        <p class="project-desc">Planned and executed in-real-life event to foster connections and visibility.
+        </p>
+      
+      </div>
+      
+    </div>
+
+    <!-- Project 2: regular community AMA -->
+    <div class="project-card reveal">
+      <div class="project-img regularAma">
+        <img width="100%" height="100%" src="regularAma.jpg" alt="" >
+      </div>
+      <div class="project-inner">
+        <h3 class="project-title">AMA Hosted</h3>
+        <p class="project-desc">Organized and hosted live AMAs on X Spaces to educate users on Fairblock's features (e.g., MEV control in crypto).
+         i Drove participation from diverse communities, enhancing project awareness and onboarding new members.
+         
+         <strong>Key outcomes: Higher engagement rates and positive feedback, contributing to overall community growth.</strong></p>
+        <div class="project-links">
+          <a href="https://x.com/fairblockafrica/status/2008630749876937105?s=46" class="proj-btn-primary">view event</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3: collaborative AMA -->
+    <div class="project-card reveal">
+      <div class="project-img collaborativeAma">
+        <img width="100%" height="100%"  src="collaborativeImage.jpg" alt="a collaborative twitter space image between fairblock and rialo.">
+      </div>
+      <div class="project-inner">
+        <h3 class="project-title">collaborative AMA</h3>
+        <p class="project-desc">Partnered with other communities for joint spaces, leading to cross-promotions and new user influx.
+        Combined with Discord activities and X marketing, this amplified reach and built lasting relationships.</p>
+        
+        <div class="project-links">
+          <a href="https://x.com/fairblockafrica/status/2018769903247884772?s=46" class="proj-btn-primary">view event</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="section-label">EXPERIENCE</p>
+    <h2 class="section-title reveal">Work<br>history</h2>
+
+    <div class="exp-item reveal">
+      <p class="exp-date">April 2025 — Present</p>
+      <p class="exp-company">Fairblock africa</p>
+      <h3 class="exp-role">Community moderator</h3>
+      <p class="exp-desc">Led community growth from 200 to 1,000+ members via Discord management, onboarding, and activities.
+      Handled X marketing, AMAs, and joint collaborations for enhanced visibility.
+      Onboarded users and moderated discussions to maintain a positive, engaged environment.</p>
+    </div>
+
+    <div class="exp-item reveal">
+      <p class="exp-date">2023 — 2025</p>
+      <p class="exp-company">various crypto projects</p>
+      <h3 class="exp-role">OG Role Holder</h3>
+      <p class="exp-desc">Started contributing to Discord servers, building skills in moderation, content, and team support.
+      Gained foundational experience in Web3 ecosystems, setting the stage for leadership roles.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">CONTACT</p>
+    <h2 class="section-title reveal">
+      <span style="color:var(--white)">Let's build<br>a community<br></span><span style="color:var(--green)">Together.</span>
+    </h2>
+    <p class="about-body reveal">Open to full-time, freelance, or Web3 collaboration opportunities. Let's connect—DM me on X.</p>
+
+    <div class="contact-links">
+      <a href="mailto:topeolaniyi75@gmail.com" class="contact-card reveal">
+        <div class="contact-icon">@</div>
+        <div class="contact-info">
+          <div class="contact-type">Email</div>
+          <div class="contact-value">topeolaniyi75@gmail.com</div>
+        </div>
+      </a>
+
+      <a href="https://twitter.com/fsdtope" class="contact-card reveal">
+        <div class="contact-icon">x</div>
+        <div class="contact-info">
+          <div class="contact-type">Twitter / X</div>
+          <div class="contact-value">@fsdtope</div>
+        </div>
+      </a>
+
+      <a href="https://discord.com/users/" class="contact-card reveal">
+        <div class="contact-icon">*</div>
+        <div class="contact-info">
+          <div class="contact-type">Discord</div>
+          <div class="contact-value">@fsdtope</div>
+        </div>
+      </a>
+
+      <a href="#" target="_blank" class="contact-card reveal">
+        <div class="contact-icon"><strong>*</strong></div>
+        <div class="contact-info">
+          <div class="contact-type">Telegram</div>
+          <div class="contact-value">fsdtope</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2026 TOPΞ — Community Manager.</div>
+    <div class="green">Open to opportunities</div>
+  </footer>
+
+  <script>
+    function openMenu() { document.getElementById('mobileMenu').classList.add('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
