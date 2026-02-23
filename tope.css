@@ -363,7 +363,7 @@
     .project-links { display: flex; gap: 12px; flex-wrap: wrap; }
      
     .project-links.OG{
-      margin-left: 14rem;
+      margin-left: 100%;
       margin-top: 1.5rem;
     }
     .proj-btn-primary {
@@ -531,5 +531,6 @@
     .regularAma-mock-title { font-size: 0.72rem; color: #fff; font-weight: 700; margin-bottom: 8px; font-family: 'Space Mono', monospace; }
     .regularAma-badge { background: #e55; color: #fff; font-size: 0.58rem; padding: 3px 10px; border-radius: 4px; display: inline-block; margin-bottom: 8px; font-family: 'Space Mono', monospace; }
     .regularAma-sub { font-size: 0.58rem; color: #666; font-family: 'Space Mono', monospace; }
+
 
     
